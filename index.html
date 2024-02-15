@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staybnb</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <nav id="navBar" >
+            <a href="index.html"><img src="images/logo.png" class="logo"></a>
+            <ul class="nav-links">
+            </ul>
+            <a href="#" class="register-btn"> Order Now</a>
+          <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+        </nav>
+
+        <!--Search Bar Container-->
+        <div class="container">
+            <h1>Find Your Perfect Outfit</h1>
+            <div class="search-bar">
+                <form>
+                    <div class="location-input">
+                        <label>Location</label>
+                        <input type="text" placeholder="Where are you ordering from?">
+                    </div>
+                    <div>
+                        <label>Estimated Time</label>
+                        <input type="text" placeholder="Add time wanted to arrive">
+                    </div>
+                    <div>
+                        <label>Product category</label>
+                        <input type="text" placeholder="What clothing article are you looking for?">
+                    </div>
+                    <div>
+                        <label>Name</label>
+                        <input type="text" placeholder="Add first and last name">
+                    </div>
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+        <!--Exclusives Container-->
+
+        <div class="container">
+            <h2 class="sub-title"> Products Sold</h2>
+            <div class="exclusives">
+                <div>
+                    <img src="images/womensromper.png">
+                    <span>
+                        <h3>Womens Clothes</h3>
+                    </span>
+                </div>
+            
+            <div>
+                <img src="images/pants.png">
+                <span>
+                    <h3>Pants</h3>
+                </span>
+            </div>
+
+            <div>
+                <img src="images/mensshirt.png">
+                <span>
+                    <h3>Mens Clothing</h3>
+                </span>
+            </div>
+
+            <div>
+                <img src="images/boys.png">
+                <span>
+                    <h3>Boys Clothing</h3>
+                </span>
+            </div>
+            
+            <div>
+                <img src="images/girls.png">
+                <span>
+                    <h3>Girls Clothing</h3>
+                </span>
+            </div>
+
+            <div>
+                <img src="images/infant.png">
+                <span>
+                    <h3>Infant Clothing</h3>
+                </span>
+            </div>
+
+            <div>
+                <img src="images/bags.png">
+                <span>
+                    <h3>Bags</h3>
+                </span>
+            </div>
+
+            <div>
+                <img src="images/jewelry.png">
+                <span>
+                    <h3>Jewelry</h3>
+                </span>
+            </div>
+
+            <div>
+                <img src="images/headband.png">
+                <span>
+                    <h3>Accessories</h3>
+                </span>
+            </div>
+        </div>
+
+        <!-- Reviews -->
+
+            <h2 class="sub-title">Reviews</h2>
+            <div class="trending">
+                <div>
+                    <img src="images/lexireview.png">
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star-half-stroke"></i></a>
+                    <h3>I really loved this dress and jacket. Great Quality and nice fit.</h3>
+
+                </div>
+               
+                <div>
+                    <img src="images/boyreview.png">
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-regular fa-star"></i></a>
+                    <h3>These overalls fit me well which is hard to get with my long legs.</h3>
+            
+                </div>
+                
+                <div>
+                    <img src="images/momandboyreview.png">
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <h3>This overall mother son set is super cute and great quality.</h3>
+
+                </div>
+                
+                <div>
+                    <img src="images/girlreview.png">
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star-half-stroke"></i></a>
+                    <h3>My daughter loves her adorable new jumpsuit from boho boutique.</h3>
+                </div>
+            </div>
+
+            <div class="cta">
+                <h3>Lets Learn About You</h3>
+                <p>Click here to take a quick survey</p>
+                <a href="https://forms.gle/FMyrd8y3ogDYWsmV7" target="_blank" class="cta-btn">Click Here</a>
+            </div>
+
+            <!--Markets-->
+            <h2 class="sub-title">Markets Available</h2> 
+            <div class="stories">
+                <div>
+                    <img src="images/market.png">
+                    <p>You can find us at the Sunday Morning Market every first Sunday of each month.</p>
+                </div>
+
+                <div>
+                    <img src="images/fleamarket.png">
+                    <p>Stop by the Flea Market on Tuesdays and Thursdays every last week of each month.</p>
+                </div>
+
+                <div>
+                    <img src="images/sundaymorning.png">
+                    <p>Catch us at the First Monday market.</p>
+                </div>
+            </div>
+            <a href="#" class="start-btn"> Find Dates Now</a>
+
+            <!--footer-->
+            <div class="footer">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <hr>
+                <p>Copyright &copy; 2024, Great Day Designs</p>
+            </div>
+</div>
+<script>
+    var navBar = document.getElementById("navBar");
+
+    function togglebtn() {
+        navBar.classList.toggle("hidemenu");
+    }
+
+</script>
+
+
+
+<script src="https://kit.fontawesome.com/a8c7023436.js" crossorigin="anonymous"></script>
+</body>
+</html>
